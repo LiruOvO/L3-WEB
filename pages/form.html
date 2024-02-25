@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="description" content="Сторінка з демонстрацією використання тегів для форм">
+        <meta name="keywords" content="html5, форми">
+    <title>Work with forms</title>
+    <style>
+        form{
+            padding: 20px;
+        }
+         .personal{
+            border: 1px solid black;
+            padding: 0 10px 15px 10px;
+            margin-bottom: 20px;;
+         }
+    </style>
+    </head>
+
+    <body>
+<header>
+    <h1>Робота з формами</h1>
+</header>
+
+<main>
+    <form>
+        <section class="personal">
+            <h2>Personal information</h2>
+            <label>Your name:</label>
+            <input type="text" name="name" placeholder="Enter your name"><br>
+            <label>Your age:</label>
+            <input type="number" name="age" placeholder="Enter your age"><br>
+        </section>
+
+        <label>Your password:</label>
+        <input type="password" name="password" placeholder="Enter your password"><br>
+
+    <input type="radio" name="gender">
+    <label>Male</label>
+    <input type="radio" name="gender">
+    <label>Female</label><br>
+
+    <label>Remember me:</label>
+        <input type="checkbox" name="remember"><br>
+
+        <label>Select your city:</label>
+    <select>
+      <option>Київ</option>
+      <option>Львів</option>
+      <option>Одеса</option>
+      <option>Харків</option>
+    </select><br><br>
+
+    <label>Enter your message:</label>
+    <textarea name="message"></textarea> <br><br>
+
+    <button type="submit">Submit</button>
+    </form>
+   
+</main>
+
+<footer></footer>
+
+    </body>
+</html>
